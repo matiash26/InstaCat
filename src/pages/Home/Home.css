@@ -1,0 +1,35 @@
+main{
+    max-width: 470px;
+    width: 100%;
+    margin: auto;
+}
+section.storiesContainer{
+    height: 119px;
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgba(187, 187, 187, 0.623);
+    border-radius: 8px;
+}
+.stories{
+    display: flex;
+}
+.storiesContainer button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.storiesContainer button svg{
+    font-size: 1rem;
+}
+.storiesContent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+

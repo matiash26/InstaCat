@@ -1,0 +1,94 @@
+header{
+    height: 6.2vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.623);
+    display: flex;
+    justify-content: center;
+}
+nav{
+    max-width: 975px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{
+    max-width: 333px;
+    width: 100%;
+}
+.logo img{
+    width: 120px;
+}
+
+.search{
+    background-color: #EFEFEF;
+    border-radius: 7px;
+    width: 268px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.search svg{
+    margin-left: 10px;
+    color: #969595;
+}
+.search input{
+    background-color: #EFEFEF;
+    border: none;
+    outline: none;
+    padding: 6px;
+    flex: 1;
+}
+.search input::placeholder{
+    color: #969595;
+    font-size: 1rem;
+}
+.menuUser{
+    max-width: 333px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.menuUser a{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.menuUser a svg{
+    font-size: 1.6rem;
+    margin-left: 22px;
+}
+.menuUser a svg:active{
+    color: red;
+}
+.menuUser a svg:nth-child(1){
+    font-size: 1.7rem;
+}
+.menuUser .profileIcon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 22px;
+}
+
+.menuInteraction{
+    flex-direction: column;
+    width: 500px;
+    height: 362px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 4.2vh;
+    right: 0;
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .logo img{
+        display: none;
+    }
+}

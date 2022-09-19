@@ -1,0 +1,62 @@
+section.post{
+    border: 1px solid rgba(187, 187, 187, 0.623);
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.profilePost{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 7px;
+}
+.postBorderPicture{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(230deg, #bf36a8f8,#F2506E,#F2B950, #F27244);
+    margin-right: 10px;
+    
+}
+.postBorderPicture img{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.imagePost img{
+    max-width: 468px;
+    max-height: 587px;
+    width: 100%;
+    object-fit: cover;
+}
+.interactionsPost {
+    /* display: flex; */
+    padding: 5px;
+}
+.interactionsPost svg{
+    margin-right: 15px;
+}
+.interactionsPost svg:nth-child(1):active{
+    color: #f02d50;
+}
+.commentsPublic {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.commentsPublic input{
+    height: 40px;
+    padding-left: 10px;
+    flex: 1;
+    border: none;
+    outline: none;
+
+}
+.commentsPublic span{
+    color: rgb(98, 98, 238);
+}
